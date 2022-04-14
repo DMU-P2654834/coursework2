@@ -1,0 +1,161 @@
+.title{
+  font-size: 80px;   /* Sets the font size to 80px */
+  color: teal;     /* Changes the colour of the text to teal */
+  text-align: center;   /*Alligns the text to the centre of the page */
+  background-color: black;   /* Sets the bakcground colour of the header to black */
+  margin-bottom: 0px;  /* This sets a margin of 0px below the header */
+}
+
+.background{
+  background-color: hsla(180, 100%, 25%, 0.2);  /* Changes background colour of the page to a transparent teal */
+}
+
+.logo{
+  float: left;  /* moves the logo to the left of the page */
+  height: 92px;   /* sets the logo's height */
+  width: 90px;   /* sets the logo's width */
+}
+
+.intro{
+  font-family: verdana, sans-serif;   /* sets the text font to verdana sans serif */
+  font-size: 25px;
+  color: black;
+}
+
+.menu{
+  list-style-type: none;   /* sets the list to have no style (e.g. bulletpoints) */
+  margin: 0;    /* changes margin and padding around the menu section */
+  padding: 0;
+  overflow: hidden;   /* hides the overflow of the menu section */
+  background-color: teal;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  font-family: verdana, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: black;   /* when the menu item is hovered over, it changes colour */
+}
+
+.homeimage{
+  float: left;
+  width: 700px;   /* sets the width of the image */
+  margin-right: 40px;   /* changes the margins around the image */
+  margin-bottom: 40px;
+  transition: width 1s;   /* sets the time period for the transition in width */
+}
+
+.homeimage:hover{
+  width: 730px;   /* when the image is hovered over, the width increases to 730px */
+}
+
+.intro2{
+  padding-top: 20px;
+  font-family: verdana, sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.conductorvid{
+  display: block;
+  text-align: center;   /* centers the video on the page */
+}
+
+.strings,.woodwind,.brass,.percussion{   /* applies this css code to all of these classed items */
+  float: left;
+  width: 580px;
+  height: 500px;
+  transition: width 1s;
+}
+
+.strings:hover,.woodwind:hover,.brass:hover,.percussion:hover{
+  width: 600px;
+}
+
+.strings2,.woodwind2,.brass2,.percussion2{
+  float: left;
+  width: 580px;
+  height: 500px;
+  transition: width 1s;
+}
+
+.strings2:hover,.woodwind2:hover,.brass2:hover,.percussion2:hover{
+  width: 600px;
+}
+
+.strings3,.woodwind3,.brass3,.percussion3{
+  float: left;
+  width: 580px;
+  height: 500px;
+  transition: width 1s;
+}
+
+.strings3:hover,.woodwind3:hover,.brass3:hover,.percussion3:hover{
+  width: 600px;
+}
+
+.stringstext,.woodwindtext,.brasstext,.percussiontext{
+  margin-top: 50px;
+  font-family: verdana, sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.stringaudio,.woodwindaudio,.brassaudio,.percussionaudio{
+  display: block;
+  text-align: center;
+}
+
+.orchvid{
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.orchtitle,.musiciantitle{
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.orchtext{
+  font-family: verdana, sans-serif;
+  font-size: 22px;
+}
+
+.musiciantext{
+  font-family: verdana, sans-serif;
+  font-size: 22px;
+}
+
+.evelyn{
+  float: right;
+  padding: 10px;
+  width: 600px;
+  transition: width 1s;
+}
+
+.james{
+  float: left;
+  padding: 10px;
+  width: 600px;
+  transition: width 1s;
+}
+
+.evelyn:hover,.james:hover{
+  width: 640px;
+}
+
+footer{
+  padding: 30px;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />    <!-- sets the width to match the device width which the website is being viewed on e.g. mobile device -->
+    <link rel="stylesheet" href="CSS\Style.css">  <!-- links the file to the css file -->
+    <title></title>
+  </head>
+  <body class="background">
+
+    <div class="header">   <!-- assigns a class to the element, allowing it to be styled in css -->
+      <a href="home.html"><img class="logo" src="Image/logo.png" alt="Logo"></a>   <!-- links the logo image to the home page -->
+      <h1 class="title">ORCHESTRALLY</h1>  <!-- title/header for the website -->
+    </div>
+
+
+    <ul class="menu">  <!-- unordered list is used for the menu -->
+      <li><a href="home.html">Home</a></li>  <!-- each list item is linked to each page -->
+      <li><a href="Strings.html">Strings</a></li>
+      <li><a href="Woodwind.html">Woodwind</a></li>
+      <li><a href="Brass.html">Brass</a></li>
+      <li><a href="Percussion.html">Percussion</a></li>
+      <li><a href="Orchestras.html">Famous Orchestras</a></li>
+      <li><a href="Musicians.html">Musicians</a></li>
+    </ul>
+
+    <p class="intro">Orchestrally is a website designed to teach you everything you need to know about orchestras and the instruments within them. From the sections of an orchestra to famous musicians themselves, this website has all of the information in one place.
+                    If you have ever wanted to join an orchestra, or are just interested in learning about which instruments you may be interested in learning, you have come to the right website.</p>  <!-- the text introduction -->
+
+    <img class="homeimage" src="Image/orchestra.jpeg" alt="orchestra">  <!-- image for the home page -->
+
+    <p class="intro2">A full-scale symphony orchestra has around 100 musicians, split between 4 different sections: strings, woodwind, brass, and percussion. The average standard of the musicians is grade 8 (the highest grade in music), and professional orchestras can be extremely competetive to get into.
+                      However, there are many amateur and youth orchestras across the country which provide many more people with the chance of joining and experiencing what its like to be a musician in one.</p>
+
+    <div class="conductorvid">
+      <video controls poster="Image/conductorpic.png">   <!-- gives the video controls (play, pause etc) which the user can utilise -->
+      <source src="Video/conductorvid.mp4" type="video/mp4">   <!-- 3 different video formats to cater for different browsers -->
+      <source src="Video/conductorvid.ogv" type="video/ogg">
+      <source src="Video/conductorvid.webm" type="video/webm">
+      <p>Your browser does not support the video element. Please click <a href='Video/conductorvid.mp4'>here</a> to download an mp4 of the video.</p>  <!-- if the browser doesn't support the video elements, this provides the option to download the video -->
+      </video>
+    </div>
+
+
+    <div> <!-- Footer element -->
+      <footer>
+        <a href="https://www.dmu.ac.uk/home.aspx"><p class="footer">P2654834</p></a>   <!-- the content of the footer also acts as a link to the DMU website -->
+      </footer>
+    </div>
+
+  </body>
+</html>
